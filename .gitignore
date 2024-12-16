@@ -1,3 +1,5 @@
 *.exe
 .vscode
 build
+.DS_Store
+cmake_build

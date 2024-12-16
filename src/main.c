@@ -5,7 +5,7 @@
 #include "parse_BSC5.h"
 #include "term.h"
 #include "stopwatch.h"
-#include "data/keplerian_elements.h"
+#include "../data/keplerian_elements.h"
 
 #include <stdlib.h>
 #include <getopt.h>
