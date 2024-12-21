@@ -27,8 +27,9 @@ subdir('third_party')
 # Get dependencies
 cc = meson.get_compiler('c')
 curses = dependency('curses', required : true)
+c_stdlib = dependency('c', required: true)
 math = cc.find_library('m', required : true)
-project_dependencies += [curses, math]
+project_dependencies += [curses, c_stdlib, math]
 
 # ------------------------------------------------------------------------------
 # Curses info
